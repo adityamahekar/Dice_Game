@@ -1,10 +1,10 @@
 var randNum = Math.floor(Math.random()*6)+1;
-var randomDice ="./dice" + randNum + ".png";
+var randomDice ="dice" + randNum + ".png";
 var imgg1 = document.querySelectorAll("img")[0];
 imgg1.setAttribute("src",randomDice);
 
 var randNum2= Math.floor(Math.random()*6)+1;
-var randomDice2="./dice" + randNum2+ ".png";
+var randomDice2="dice" + randNum2+ ".png";
 var imgg2 = document.querySelectorAll("img")[1];
 imgg2.setAttribute("src",randomDice2);
 
@@ -18,3 +18,4 @@ else{
      document.querySelector("h1").innerHTML = "Match Draw!";
 
 }
+
